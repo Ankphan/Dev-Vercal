@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Import your feature components
-import HomePageTest from '../home-page/HomeTest'; // Import your homepage component
+import HomePageTest from '../home-page/TestHome'; // Import your homepage component
 import ModelViewerRenderPage from '../ModelViewerRenderPage'; // Import your ModelViewer component
 // Import other feature components as needed
 
