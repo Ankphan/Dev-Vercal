@@ -53,7 +53,7 @@ const ThumbnailBox = ({ onClick, src, alt, label, buttonProps, textProps }) => (
 	</Box>
 );
 
-function HomePageTest() {
+function TestHome() {
 	const router = useRouter();
 	const { fileData } = useContext(FileContext);
 	const { activities, setActivities } = useUploadModel();
@@ -143,4 +143,4 @@ function HomePageTest() {
 	);
 }
 
-export default HomePageTest;
+export default TestHome;
